@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: #000;
+}
+.pg-home{
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.nav__links li a{
+    color: #fff;
+    transition: all 0.2s linear;
+    text-decoration: none;
+}
+.nav__links li a:hover{
+    color: #777777;
+    transition: all 0.2s linear;
+    filter: brightness(1.2);
+}
+a img{
+    transition: all .2s linear;
+}
+a img:hover{
+    transition: all .2s linear;
+    transform: scale(.9);;
+}
+.owl-dot span{
+    background-color: #fff !important;
+}
+.owl-dot.active span{
+    background-color: #777777 !important;
+}
+#part2{
+    min-height: 600px;
+    animation: change 15s infinite ease-in-out;
+}
+@keyframes change{
+    0%{
+        background: url(../imgs/content/bg-crs-0.png)
+    }
+    20%{
+        background: url(../imgs/content/bg-crs-1.png)
+    }
+    40%{
+        background: url(../imgs/content/bg-crs-2.png)
+    }
+    60%{
+        background: url(../imgs/content/bg-crs-3.png)
+    }
+    80%{
+        background: url(../imgs/content/bg-crs-4.png)
+    }
+    100%{
+        background: url(../imgs/content/bg-crs-5.png)
+    }
+}
+.logo{
+    position: absolute;
+}
+.header{
+    background-color: #000;
+    border-bottom: 5px solid #777777;
+}
+.item-main{
+    padding: 225px 0 0 0;
+}
+.btn-wpp{
+    width: 230px !important;
+    height: 60px;
+    margin: 65px 0 0 0;
+}
+#part3{
+    background: #000;
+    min-height: 636px;
+}
+.img-p3{
+    padding: 75px 0 0 0;
+}
+.txt-p3{
+    padding: 95px 0 0 0;
+}
+.t-p3{
+    font-size: 32px;
+    font-weight: 800;
+    font-style: normal;
+}
+.p-p3{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    padding: 15px 0 0 0;
+}
+#part4{
+    background: linear-gradient(183deg, #0F0F0F, rgba(34, 31, 32, 0) 200%), url(../imgs/content/bg-sc-0.png);
+    min-height: 700px;
+}
+.txt{
+    margin: 55px 0 -35px 0;
+}
+.item{
+    background-color: #000;
+    height: 371px;
+}
+.item img{
+    width: 152px !important;
+    padding: 50px 0px 30px 0px;
+    margin: 50px 0px 0px 140px;
+}
+#part5, #part6{
+    background: #000;
+    min-height: 763px;
+}
+#part6{
+    border-bottom: 5px solid #777777;
+}
+.tm{
+    background: #1E1E1E;
+    height: 73px;
+    padding: 1px 0px 0px 0px;
+}
+.team{
+    padding: 55px 0 0 0;
+}
+.t-tm{
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    margin: 10px 0px 0px 0px;
+}
+.p-tm{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.blog{
+    padding: 50px 0 0 0;
+}
+.btn-bl{
+    color: #777777;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+footer{
+    background: #000;
+    min-height: 280px;
+}
+.cont{
+    padding: 50px 0px 0px 0px;
+}
+.cont-2{
+    margin: -55px 0 0 0;
+}
+.social{
+    margin: -80px 0 0 0;
+}
+.end{
+    padding: 150px 0 0 0;
+}
+.kryza{
+    margin: -30px 0 0 0;
+}
+@media screen and (max-width: 1024px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        background-color: #000;
+    }
+    .pg-home{
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+        color: #fff;
+        font-family: 'Montserrat';
+    }
+    .nav__links{
+        list-style: none;
+    }
+    .nav__links li{
+        display: inline-block;
+        padding: 20px 4px;
+        text-decoration: none;
+    }
+    .nav__links li a{
+        color: #fff;
+        transition: all 0.2s linear;
+        text-decoration: none;
+    }
+    .nav__links li a:hover{
+        color: #777;
+        transition: all 0.2s linear;
+        filter: brightness(1.2);
+    }
+    a img{
+        transition: all .2s linear;
+    }
+    a img:hover{
+        transition: all .2s linear;
+        transform: scale(.9);;
+    }
+    .owl-dot span{
+        background-color: #fff !important;
+    }
+    .owl-dot.active span{
+        background-color: #777777 !important;
+    }
+    #part2{
+        min-height: 600px;
+        animation: change 15s infinite ease-in-out;
+    }
+    @keyframes change{
+        0%{
+            background: url(../imgs/content/bg-crs-0.png)
+        }
+        20%{
+            background: url(../imgs/content/bg-crs-1.png)
+        }
+        40%{
+            background: url(../imgs/content/bg-crs-2.png)
+        }
+        60%{
+            background: url(../imgs/content/bg-crs-3.png)
+        }
+        80%{
+            background: url(../imgs/content/bg-crs-4.png)
+        }
+        100%{
+            background: url(../imgs/content/bg-crs-5.png)
+        }
+    }
+    .logo{
+        position: absolute;
+    }
+    .header{
+        background-color: #000;
+        border-bottom: 5px solid #777777;
+    }
+    .item-main{
+        padding: 225px 0 0 0;
+    }
+    .phone{
+        margin: 0 0 0 60px;
+    }
+    .btn-wpp{
+        width: 190px !important;
+        height: 50px;
+        margin: 65px 0 0 0;
+    }
+    #part3{
+        background: #000;
+        min-height: 636px;
+    }
+    .img-p3{
+        padding: 75px 0 0 0;
+    }
+    .txt-p3{
+        padding: 65px 0px 0px 80px;
+        font-size: 10px;
+    }
+    .t-p3{
+        font-size: 32px;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .p-p3 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+        font-style: normal;
+        padding: 0 0 0 0;
+    }
+    #part4{
+        background: linear-gradient(183deg, #0F0F0F, rgba(34, 31, 32, 0) 200%), url(../imgs/content/bg-sc-0.png);
+        min-height: 700px;
+    }
+    .txt{
+        margin: 55px 0 -35px 0;
+    }
+    .item{
+        background-color: #000;
+        height: 371px;
+    }
+    .item img{
+        width: 152px !important;
+        padding: 50px 0px 30px 0px;
+        margin: 50px 0px 0px 85px;
+    }
+    #part5, #part6{
+        background: #000;
+        min-height: 640px;
+    }
+    #part6{
+        border-bottom: 5px solid #777777;
+    }
+    .tm{
+        background: #1E1E1E;
+        height: 73px;
+        padding: 1px 0px 0px 0px;
+    }
+    .team{
+        padding: 55px 0 0 0;
+    }
+    .t-tm{
+        font-size: 15px;
+        font-weight: 800;
+        font-style: normal;
+        margin: 10px 0px 0px 0px;
+    }
+    .p-tm{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .blog{
+        padding: 50px 0 0 0;
+    }
+    .btn-bl{
+        color: #777777;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.2s linear;
+    }
+    footer{
+        background: #000;
+        min-height: 280px;
+    }
+    .cont{
+        padding: 50px 0px 0px 0px;
+    }
+    .cont-2{
+        margin: -55px 0 0 0;
+        font-size: 16px;
+    }
+    .social{
+        margin: -110px 0px -60px -110px;
+    }
+    .end{
+        padding: 190px 0 0 0;
+        font-size: 14px;
+    }
+    .kryza{
+        margin: -25px 0 0 0;
+        font-size: 13px;
+    }    
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        background-color: #000;
+    }
+    .pg-home{
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+        color: #fff;
+        font-family: 'Montserrat';
+    }
+    .nav__links{
+        list-style: none;
+    }
+    .nav__links li{
+        display: inline-block;
+        padding: 5px 5px 1px 0px;
+        text-decoration: none;
+        margin: 5px -190px 0px 190px;
+        font-size: 11px;
+    }
+    .nav__links li a{
+        color: #fff;
+        transition: all 0.2s linear;
+        text-decoration: none;
+    }
+    .nav__links li a:hover{
+        color: #777;
+        transition: all 0.2s linear;
+        filter: brightness(1.2);
+    }
+    a img{
+        transition: all .2s linear;
+    }
+    a img:hover{
+        transition: all .2s linear;
+        transform: scale(.9);;
+    }
+    .owl-dot span{
+        background-color: #fff !important;
+    }
+    .owl-dot.active span{
+        background-color: #777777 !important;
+    }
+    #part2{
+        min-height: 600px;
+        animation: change 15s infinite ease-in-out;
+    }
+    @keyframes change{
+        0%{
+            background: url(../imgs/content/bg-crs-0.png)
+        }
+        20%{
+            background: url(../imgs/content/bg-crs-1.png)
+        }
+        40%{
+            background: url(../imgs/content/bg-crs-2.png)
+        }
+        60%{
+            background: url(../imgs/content/bg-crs-3.png)
+        }
+        80%{
+            background: url(../imgs/content/bg-crs-4.png)
+        }
+        100%{
+            background: url(../imgs/content/bg-crs-5.png)
+        }
+    }
+    .logo{
+        position: absolute;
+        width: 160px;
+    }
+    .header{
+        background-color: #000;
+        border-bottom: 5px solid #777777;
+    }
+    .item-main{
+        padding: 225px 0 0 0;
+    }
+    .btn-wpp{
+        width: 230px !important;
+        height: 60px;
+        margin: 60px 0px 0px -50px;
+    }
+    #part3{
+        background: #000;
+        min-height: 520px;
+    }
+    .img-p3{
+        padding: 75px 0 0 0;
+        width: 300px;
+    }
+    .txt-p3{
+        padding: 75px 0 0 75px;
+    }
+    .t-p3{
+        font-size: 22px;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .p-p3{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        font-style: normal;
+        padding: 5px 0 0 0;
+    }
+    #part4{
+        background: linear-gradient(183deg, #0F0F0F, rgba(34, 31, 32, 0) 200%), url(../imgs/content/bg-sc-0.png);
+        min-height: 540px;
+    }
+    .txt{
+        margin: 55px 0 -35px 0;
+        font-size: 15px;
+    }
+    .item{
+        background-color: #000;
+        height: 270px;
+    }
+    .item img{
+        width: 110px !important;
+        padding: 50px 0px 30px 0px;
+        margin: 50px 0px 0px 120px;
+    }
+    #part5, #part6{
+        background: #000;
+        min-height: 660px;
+    }
+    #part6{
+        border-bottom: 5px solid #777777;
+    }
+    .tm{
+        background: #1E1E1E;
+        height: 73px;
+        padding: 1px 0px 0px 0px;
+    }
+    .team{
+        padding: 55px 0 0 0;
+    }
+    .t-tm{
+        font-size: 18px;
+        font-weight: 800;
+        font-style: normal;
+        margin: 10px 0px 0px 0px;
+    }
+    .p-tm{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .blog{
+        padding: 50px 0 0 0;
+    }
+    .btn-bl{
+        color: #777777;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.2s linear;
+    }
+    footer{
+        background: #000;
+        min-height: 280px;
+    }
+    .cont{
+        padding: 50px 0px 0px 0px;
+        font-size: 13px;
+    }
+    .cont-2{
+        margin: -45px 0 0 0;
+        font-size: 11px;
+    }
+    .social{
+        margin: -70px -30px -30px -350px;
+    }
+    .end{
+        padding: 150px 0 0 0;
+        font-size: 10px;
+    }
+    .kryza{
+        margin: -20px 0px 0px -70px;
+        font-size: 10px;
+    }    
+}
+@media screen and (max-width: 767px){
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        background-color: #000;
+    }
+    .pg-home{
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+        color: #fff;
+        font-family: 'Montserrat';
+    }
+    .nav__links, .phone, .phone2, .img-p3, .logo-end, .kry-txt{
+        visibility: hidden !important;
+    }
+    a img{
+        transition: all .2s linear;
+    }
+    a img:hover{
+        transition: all .2s linear;
+        transform: scale(.9);;
+    }
+    .owl-dot span{
+        background-color: #fff !important;
+    }
+    .owl-dot.active span{
+        background-color: #777777 !important;
+    }
+    #part2{
+        min-height: 600px;
+        animation: change 15s infinite ease-in-out;
+    }
+    @keyframes change{
+        0%{
+            background: url(../imgs/content/bg-crs-0.png)
+        }
+        20%{
+            background: url(../imgs/content/bg-crs-1.png)
+        }
+        40%{
+            background: url(../imgs/content/bg-crs-2.png)
+        }
+        60%{
+            background: url(../imgs/content/bg-crs-3.png)
+        }
+        80%{
+            background: url(../imgs/content/bg-crs-4.png)
+        }
+        100%{
+            background: url(../imgs/content/bg-crs-5.png)
+        }
+    }
+    .logo{
+        position: absolute;
+    }
+    .header{
+        background-color: #000;
+        border-bottom: 5px solid #777777;
+        height: 100px;
+    }
+    .item-main{
+        padding: 195px 0 0 0;
+    }
+    .item-main h2{
+        font-size: 25px;
+        margin: 0px -120px 0px -10px;
+    }
+    .btn-wpp{
+        width: 170px !important;
+        height: 50px;
+        margin: 100px 0px 0px -90px;
+    }
+    #part3{
+        background: #000;
+        min-height: 636px;
+    }
+    .txt-p3{
+        padding: 0px 0 0 0;
+        margin: -500px 0 0 0;
+    }
+    .t-p3{
+        font-size: 25px;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .p-p3{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18px;
+        font-style: normal;
+        padding: 15px 0px 0px 0px;
+        margin: 0px -100px 0 0;
+    }
+    #part4{
+        background: linear-gradient(183deg, #0F0F0F, rgba(34, 31, 32, 0) 200%), url(../imgs/content/bg-sc-0.png);
+        min-height: 560px;
+    }
+    .txt{
+        margin: 55px 0 -35px 0;
+        font-size: 14px;
+    }
+    .item{
+        background-color: #000;
+        height: 260px;
+    }
+    .item h4{
+        font-size: 18px;
+    }
+    .item img{
+        width: 100px !important;
+        padding: 40px 0px 20px 0px;
+        margin: 50px 0px 0px 100px;
+    }
+    #part5, #part6{
+        background: #000;
+        min-height: 666px;
+    }
+    #part6{
+        border-bottom: 5px solid #777777;
+    }
+    .tm{
+        background: #1E1E1E;
+        height: 73px;
+        padding: 1px 0px 0px 0px;
+    }
+    .team{
+        padding: 55px 0 0 0;
+    }
+    .t-tm{
+        font-size: 18px;
+        font-weight: 800;
+        font-style: normal;
+        margin: 10px 0px 0px 0px;
+    }
+    .p-tm{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .blog{
+        padding: 50px 0 0 0;
+    }
+    .btn-bl{
+        color: #777777;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.2s linear;
+    }
+    footer{
+        background: #000;
+        min-height: 280px;
+    }
+    .cont{
+        padding: 50px 0px 90px 0px;
+        font-size: 10px;
+    }
+    .cont-2{
+        margin: -75px -300px 60px -200px;
+        font-size: 10px;
+    }
+    .social{
+        margin: -80px 0 0 -100px;
+    }
+    .end{
+        padding: 100px 0 0 0;
+        font-size: 8px;
+    }
+    .kryza{
+        margin: -80px 10px 0px 0px;
+    }
+}

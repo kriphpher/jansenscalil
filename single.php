@@ -1,0 +1,3 @@
+<?php get_header(); ?>
+<?php if(have_posts()){while(have_posts()){the_post();get_template_parts('/wp-content/themes/jansenscalil/template-parts/escritorio-article.php', 'article');get_template_parts('/wp-content/themes/jansenscalil/template-parts/areas-article.php', 'article');get_template_parts('/wp-content/themes/jansenscalil/template-parts/equipe-article.php', 'article');get_template_parts('/wp-content/themes/jansenscalil/template-parts/blog-article.php', 'article');}} ?>
+<?php get_footer(); ?>
